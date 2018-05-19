@@ -3,19 +3,19 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		B10C56DE20A77CCD00C8272E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B10C56DC20A77CCD00C8272E /* Main.storyboard */; };
 		B10C56E020A78DBF00C8272E /* PlaySoundViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B10C56DF20A78DBF00C8272E /* PlaySoundViewController.swift */; };
 		B157A5BB20A16326006CD551 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157A5BA20A16326006CD551 /* AppDelegate.swift */; };
-		B157A5BD20A16326006CD551 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157A5BC20A16326006CD551 /* RecordSoundsViewController.swift */; };
 		B157A5C220A16326006CD551 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B157A5C120A16326006CD551 /* Assets.xcassets */; };
 		B157A5C520A16326006CD551 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B157A5C320A16326006CD551 /* LaunchScreen.storyboard */; };
 		B157A5D020A16326006CD551 /* PitchPerfectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157A5CF20A16326006CD551 /* PitchPerfectTests.swift */; };
 		B157A5DB20A16326006CD551 /* PitchPerfectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157A5DA20A16326006CD551 /* PitchPerfectUITests.swift */; };
 		B15F36E820AA27CE00A94031 /* playsoundsviewcontroller-audio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B15F36E720AA27CE00A94031 /* playsoundsviewcontroller-audio.swift */; };
+		B1FEB6CF20AD439100146E98 /* RecordSoundsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B157A5BC20A16326006CD551 /* RecordSoundsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -217,7 +217,7 @@
 				};
 			};
 			buildConfigurationList = B157A5B220A16325006CD551 /* Build configuration list for PBXProject "PitchPerfect" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -268,9 +268,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B157A5BD20A16326006CD551 /* RecordSoundsViewController.swift in Sources */,
 				B10C56E020A78DBF00C8272E /* PlaySoundViewController.swift in Sources */,
 				B157A5BB20A16326006CD551 /* AppDelegate.swift in Sources */,
+				B1FEB6CF20AD439100146E98 /* RecordSoundsViewController.swift in Sources */,
 				B15F36E820AA27CE00A94031 /* playsoundsviewcontroller-audio.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
