@@ -30,9 +30,7 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate {
     @IBAction func recordAudio(_ sender: Any) {
         // calling configure button 
         configureRecordButtons(true)
-        //recordingLbl.text = "recording in progress"
-        //stopRecBtn.isEnabled = true
-        //recordBtn.isEnabled = false
+        
         
         let dirPath = NSSearchPathForDirectoriesInDomains(.documentDirectory,.userDomainMask, true)[0] as String
         let recordingName = "recordedVoice.wav"
