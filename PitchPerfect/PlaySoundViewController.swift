@@ -53,18 +53,25 @@ class PlaySoundViewController: UIViewController {
     @IBAction func stopButtonPressed(_ sender: AnyObject) {
         stopAudio()
     }
+    
+    func configure(button: UIButton) {
+        button.imageView?.contentMode = .scaleAspectFit
+    }
+    
+    func configureButtons() {
+        configure(button: snailButton)
+        configure(button: rabbitButton)
+        configure(button: chipmunkButton)
+        configure(button: vaderButton)
+        configure(button: echoButton)
+        configure(button: reverbButton)
+        configure(button: stopButton)
+    }
 
     override func viewDidLoad() {
         super.viewDidLoad()
         setupAudio()
-        snailButton.imageView?.contentMode = .scaleAspectFit
-        rabbitButton.imageView?.contentMode = .scaleAspectFit
-        chipmunkButton.imageView?.contentMode = .scaleAspectFit
-        vaderButton.imageView?.contentMode = .scaleAspectFit
-        echoButton.imageView?.contentMode = .scaleAspectFit
-        reverbButton.imageView?.contentMode = .scaleAspectFit
-        stopButton.imageView?.contentMode = .scaleAspectFit
-        // Do any additional setup after loading the view.
+        configureButtons()
     }
     
     override func viewWillAppear(_ animated: Bool) {
