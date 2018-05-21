@@ -1,5 +1,5 @@
 # pitchperfect
-Pitch perfect is an ios app that allows the user to record audio and playback the recorded sounds with various auditory filters
+Pitch perfect is an ios app that allows the user to record their voice and modulate the recorded audio to sound like a Chimpunk or Darth Vader.  In addition, it will allow for the user to speed up or slow down the rate of playback, and provide a echo or reverb effects.
 ## installation 
 - download or clone package
 - compatible with xcode 8 and above
@@ -14,5 +14,5 @@ added button configuration and fixed UI layout issues to adhere to various devic
 ## Author
 __Jonathan Cochran__
 ### Task List of completed requirements
-- [ ] fix UI elements on App
-- [ ] develop function to fix button aspect ratio 
+- [x] fix UI elements on App
+- [x] develop function to fix button aspect ratio 
