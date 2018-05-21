@@ -1,6 +1,6 @@
 # pitchperfect
 Pitch perfect is an ios app that allows the user to record audio and playback the recorded sounds with various auditory filters
-##installation 
+## installation 
 - download or clone package
 - compatible with xcode 8 and above
 - open project in xcode and build
